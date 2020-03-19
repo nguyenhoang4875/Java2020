@@ -18,7 +18,7 @@ public class MathClassTest {
         assertEquals(mathClass.max(5, 4, 2), 5);
         assertEquals(mathClass.max(2, 4, 6), 6);
 
-        assertEquals(mathClass.max(5, 4, 3), 6);
+        assertEquals(mathClass.max(5, 4, 3), 5);
         assertEquals(mathClass.max(5, 4, 6), 6);
         assertEquals(mathClass.max(5, 5, 6), 6);
     }
