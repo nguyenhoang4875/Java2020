@@ -9,6 +9,10 @@ public class Exercise01 {
             }
         }
 
+        if(false){
+            System.out.printf("FAIL");
+        }
+
         return a + b;
     }
 
